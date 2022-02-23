@@ -1,0 +1,12 @@
+{
+	"name": "mp tracker",
+	"description": "track mp chapters from uukanshu",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"matches": ["*://*.uukanshu.com/*"],
+			"js": ["main.js"]
+		}
+	]
+}
